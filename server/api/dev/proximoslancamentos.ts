@@ -12,6 +12,7 @@ export default defineEventHandler(async (event) => {
             column:'Data',
             direction: 'asc' 
         },
+        mesReferencia: "Fevereiro",
         dados:[
             {
                 id:1,
