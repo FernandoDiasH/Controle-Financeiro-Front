@@ -1,6 +1,6 @@
 <template>
     <div>
-        <UButton label="Adicionar" @click="isOpen = true"/>
+        <UButton label="Adicionar Lançamento Recorrente" @click="isOpen = true"/>
         <UModal class="" v-model="isOpen" :overlay="false" prevent-close>
             <UCard >
                 <template #header>
