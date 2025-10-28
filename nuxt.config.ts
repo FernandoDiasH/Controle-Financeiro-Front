@@ -3,7 +3,9 @@ import tailwindcss from "@tailwindcss/vite";
 
 export default defineNuxtConfig({
   compatibilityDate: '2025-07-15',
-  devtools: { enabled: true },
+  devtools: { 
+    enabled: false,
+  },
   css: ['~/assets/css/main.css'],
   modules: [
     '@pinia/nuxt',
@@ -16,10 +18,17 @@ export default defineNuxtConfig({
     ],
   },
   i18n:{
-    defaultLocale:'br',
+    restructureDir:'./',
+    langDir: "./locales",
+    defaultLocale:"pt_br",
+    strategy:"prefix_except_default",
     locales:[
-      {code: 'br', name: 'Portugês', file: 'br.json'},
-      {code: 'en', name: 'English', file: 'en.json'},
-    ]
-  }
+      {code: 'pt_br', language: "pt-BR", name: 'Portugês(BR)', file: 'pt_BR.json'},
+      {code: 'en', language: "en-US", name: 'English(US)', file: 'en_US.json'},
+    ],
+    detectBrowserLanguage:{
+      fallbackLocale: "pt_br",
+      useCookie:false
+    }
+  },
 })

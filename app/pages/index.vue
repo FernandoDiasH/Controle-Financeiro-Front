@@ -1,5 +1,6 @@
 <template>
   <div class="min-h-screen flex flex-col items-center justify-center gap-4 p-4">
+    <h1>{{ $t("welcome") }}</h1>
     <UPageCard class="w-full max-w-md">
       <UAuthForm
         :schema="schema"

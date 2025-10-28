@@ -13,10 +13,11 @@ useHead({
     dir
   }
 })
+
 </script>
 
 <template>
-  <UApp :locale="locales[locale]">
+  <UApp :locale="locales[locale]" >
     <NuxtPage />
   </UApp>
 </template>
