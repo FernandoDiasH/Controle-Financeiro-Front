@@ -1,3 +1,76 @@
 {
-  "welcome": "Bem Vindo"
+    "welcome": "Bem Vindo",
+    "LOGIN": {
+        "TITLE": "Entrar na sua conta",
+        "DESCRIPTION": "Insira suas credenciais para acessar sua conta.",
+        "EMAIL_LABEL": "Email",
+        "EMAIL_PLACEHOLDER": "Seu email",
+        "EMAIL_ERROR": "Por favor, insira um email válido.",
+        "PASSWORD_LABEL": "Senha",
+        "PASSWORD_PLACEHOLDER": "Sua senha",
+        "PASSWORD_ERROR": "Por favor, insira sua senha.",
+        "FORGOT_PASSWORD": "Esqueceu sua senha?",
+        "REMEMBER_ME": "Lembre-se de mim",
+        "SUBMIT_BUTTON": "Entrar",
+        "NO_ACCOUNT": "Não tem uma conta?",
+        "REGISTER_LINK": "Crie sua conta aqui."
+    },
+    "SIGNUP": {
+        "TITLE": "Crie sua conta",
+        "DESCRIPTION": "Insira seus dados para criar uma nova conta.",
+        "PHONE":{
+            "LABEL": "Telefone",
+            "PLACEHOLDER": "Seu número de telefone",
+            "REQUIRED_ERROR": "O telefone é obrigatório.",
+            "LENGTH_ERROR": "O telefone deve ter pelo menos 10 caracteres.",
+            "ERROR": "Por favor, insira um número de telefone válido."
+        },
+        "EMAIL": {
+            "LABEL": "Email",
+            "PLACEHOLDER": "Seu email",
+            "REQUIRED_ERROR": "O email é obrigatório.",
+            "ERROR": "Por favor, insira um email válido."
+        },
+        "DOCUMENT": {
+            "LABEL": "Documento",
+            "PLACEHOLDER": "Seu CPF ou CNPJ",
+            "REQUIRED_ERROR": "O documento é obrigatório.",
+            "LENGTH_ERROR": "O documento deve ter pelo menos 10 caracteres.",
+            "ERROR": "Por favor, insira um documento válido."
+        },
+        "NAME": {
+            "LABEL": "Nome",
+            "PLACEHOLDER": "Seu nome completo",
+            "REQUIRED_ERROR": "O nome é obrigatório.",
+            "LENGTH_ERROR": "O nome deve ter pelo menos 2 caracteres.",
+            "ERROR": "Por favor, insira seu nome."
+        },       
+        "PASSWORD": {
+            "LABEL": "Senha",
+            "PLACEHOLDER": "Sua senha",
+            "REQUIRED_ERROR": "A senha é obrigatória.",
+            "LENGTH_ERROR": "A senha deve ter pelo menos 6 caracteres.",
+            "ERROR": "A senha deve ter pelo menos 6 caracteres."
+        },
+        "CONFIRM_PASSWORD": {
+            "LABEL": "Confirme a Senha",
+            "PLACEHOLDER": "Confirme sua senha",
+            "REQUIRED_ERROR": "A confirmação de senha é obrigatória.",
+            "LENGTH_ERROR": "A confirmação de senha deve ter pelo menos 6 caracteres.",
+            "ERROR": "As senhas não coincidem."
+        },
+
+        "SUBMIT_BUTTON": "Cadastrar-se",
+        "HAVE_ACCOUNT": "Já tem uma conta?",
+        "LOGIN_LINK": "Entre aqui."
+    },
+    "FORGOT_PASSWORD": {
+        "TITLE": "Redefinir sua senha",
+        "DESCRIPTION": "Insira seu email para receber instruções de redefinição de senha.",
+        "EMAIL_LABEL": "Email",
+        "EMAIL_PLACEHOLDER": "Seu email",
+        "EMAIL_ERROR": "Por favor, insira um email válido.",
+        "SUBMIT_BUTTON": "Enviar instruções",
+        "BACK_TO_LOGIN": "Voltar para o login"
+    }
 }

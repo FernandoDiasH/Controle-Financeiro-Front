@@ -1,3 +1,43 @@
 {
-  "welcome": "Welcome"
+  "welcome": "Welcome",
+  "LOGIN": {
+    "TITLE": "Log in to your account",
+    "DESCRIPTION": "Enter your credentials to access your account.",
+    "EMAIL_LABEL": "Email",
+    "EMAIL_PLACEHOLDER": "Your email",
+    "EMAIL_ERROR": "Please enter a valid email.",
+    "PASSWORD_LABEL": "Password",
+    "PASSWORD_PLACEHOLDER": "Your password",
+    "PASSWORD_ERROR": "Please enter your password.",
+    "FORGOT_PASSWORD": "Forgot your password?",
+    "REMEMBER_ME": "Remember me",
+    "SUBMIT_BUTTON": "Log In",
+    "NO_ACCOUNT": "Don't have an account?",
+    "REGISTER_LINK": "Create your account here."
+  },
+  "SIGNUP": {
+    "TITLE": "Create your account",
+    "DESCRIPTION": "Enter your details to create a new account.",
+    "PHONE_LABEL": "Phone",
+    "PHONE_PLACEHOLDER": "Your phone number",
+    "PHONE_ERROR": "Please enter a valid phone number.",
+    "NAME_LABEL": "Name",
+    "NAME_PLACEHOLDER": "Your full name",
+    "NAME_ERROR": "Please enter your name.",
+    "EMAIL_LABEL": "Email",
+    "EMAIL_PLACEHOLDER": "Your email",
+    "EMAIL_ERROR": "Please enter a valid email.",
+    "DOCUMENT_LABEL": "Document",
+    "DOCUMENT_PLACEHOLDER": "Your CPF or CNPJ",
+    "DOCUMENT_ERROR": "Please enter a valid document.",
+    "PASSWORD_LABEL": "Password",
+    "PASSWORD_PLACEHOLDER": "Your password",  
+    "PASSWORD_ERROR": "Please enter your password.",
+    "CONFIRM_PASSWORD_LABEL": "Confirm Password",
+    "CONFIRM_PASSWORD_PLACEHOLDER": "Confirm your password",
+    "CONFIRM_PASSWORD_ERROR": "Passwords do not match.",
+    "SUBMIT_BUTTON": "Sign Up",
+    "HAVE_ACCOUNT": "Already have an account?",
+    "LOGIN_LINK": "Log in here." 
+  }
 }
